@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.files         = `git ls-files`.split($\)
   s.test_files    = []
-  s.add_dependency 'sidekiq', '~> 6.0.4'
+  s.add_dependency 'sidekiq', '>= 6.0.4', '< 6.3.0'
 end
